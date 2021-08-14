@@ -241,13 +241,24 @@ img{
     box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
 }
 /* HOME */
+.home{
+    background-color: var(--scroll-thumb-color);
+}
 .home__container{
     gap: 1rem;
+    /* display: flex;  
+  flex-wrap: wrap; */
+    /* gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr); */
 }
 .home__content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
     align-items: center;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-self: center;
+    /* background-color: var(--scroll-thumb-color); */
 }
 .home__social{
     display: grid;
@@ -285,6 +296,7 @@ img{
 }
 .home__scroll{
     display: none;
+    justify-self: center;
 }
 .home__scroll-button{
     color: var(--first-color);
@@ -588,7 +600,7 @@ img{
   /* SERVICE */
   .services__container{
       gap: 1.5rem;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
   }
   .services__content{
       position: relative;
@@ -664,6 +676,9 @@ img{
       color: var(--first-color);
       margin-right: var(--mb-0-25);
   }
+  .private__link{
+    color: var(--first-color);
+  }
   /* ACTIVE MODAL */
   .active-modal{
       opacity: 1;
@@ -717,6 +732,9 @@ img{
     outline: none;
 }
 /* CONTACT ME */
+.contact{
+    background-color: var(--scroll-thumb-color);
+}
 .contact__container{
     row-gap: 3rem;
 }
@@ -906,6 +924,7 @@ img{
     .header{
         top: 0;
         bottom: initial;
+        /* background-color: var(--first-color-second); */
     }
     .header,
     .main,
