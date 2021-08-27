@@ -61,7 +61,7 @@
         </header>
         <main class="main">
             <section class="home section" id="home">
-                <div class="home__contaier contater grid">
+                <div class="home__container container grid">
                     <div class="home__content grid">
                         <div class="home__social">
                             <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
@@ -74,25 +74,25 @@
                                 <i class="uil uil-github-alt"></i>
                             </a>
                         </div>
-                        <div class="home__img">
+                        <!-- <div class="home__img">
                             <svg class="home__blob" viewBox="0 0 200 187" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                                <mask id="mask0" mask-type="alpha">
+                                <mask id="mask0" mask-type="alpha"> -->
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
                                     <!-- <path d="M360,310.5Q322,381,240,381.5Q158,382,80,311Q2,240,75,160Q148,80,230.5,96.5Q313,113,355.5,176.5Q398,240,360,310.5Z"/> -->
-                                </mask>
+                                <!-- </mask>
                                 <g mask="url(#mask0)">
                                     <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/> -->
                                     <!-- <path d="M360,310.5Q322,381,240,381.5Q158,382,80,311Q2,240,75,160Q148,80,230.5,96.5Q313,113,355.5,176.5Q398,240,360,310.5Z"/>
                                     <image class="home__blob-img" xlink:href="assets/img/profile1.JPG"/> -->
-                                    <image class="home__blob-img" x='-15' xlink:href="assets/img/profile1.JPG"/>
+                                    <!-- <image class="home__blob-img" x='-15' xlink:href="assets/img/profile1.JPG"/>
                                 </g>
-                            </svg>
+                            </svg> -->
                             <!-- <svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
                                 <defs>
                                     <clipPath id="blob">
@@ -105,7 +105,7 @@
                                 </defs>
                                 <image x="0" y="0" width="100%" height="100%" clip-path="url(#blob)" xlink:href="D:\Portfolio & Multi Tenansy\Portfolio(Eaindra)\assets\img\20200207_IMG_0348.JPG" preserveAspectRatio="xMidYMid slice"></image>
                             </svg> -->
-                        </div>
+                        <!-- </div> -->
                         <div class="home__data">
                             <h1 class="home__title">Hello, I'am Eaindra Htet Htet Htun.</h1>
                             <h3 class="home__subtitle">Full Stack Developer</h3>
@@ -289,7 +289,7 @@
                     </div>
                     <div>
                     <!-- SKILLS 2 -->
-                         <div class="skills__content skills__close">
+                         <div class="skills__content skills__open">
                             <div class="skills__header">
                                 <i class="uil uil-server-network skills__icon"></i>
                                 <div>
@@ -423,32 +423,122 @@
                 </div>
             </section>
             <!-- QUALIFICATION -->
-            <!-- <section class="qualification section">
+            <section class="qualification section">
                 <h2 class="section__title">Quatlification</h2>
                 <span class="section__subtitle">My personal journey</span>
+                
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Education
                         </div>
-                        <div class="qualification__button button--flex">
+                        <div class="qualification__button button--flex" data-target="#language">
                             <i class="uil uil-english-to-chinese qualification__icon"></i>
                             Language
                         </div>
-                        <div class="qualification__sections"> -->
+                    </div>
+                        <div class="qualification__sections">
                             <!-- QUALIFICATION CONTENT 1 -->
-                            <!-- <div class="qualification__content">
+                            <div class="qualification__content qualification__active" data-content id="education">
+                                <!-- QUALIFICATION 1 -->
                                 <div class="qualification__data">
                                     <div>
-                                        <h3 class="qualification__title"></h3>
+                                        <h3 class="qualification__title">B.E</h3>
+                                        <span class="qualification__subtitle">Thanlyin Technology University</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            2011-2015
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+                            <!-- QUALIFICATION 2 -->
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">Post Graduate Diploma In Computer Application</h3>
+                                        <span class="qualification__subtitle">Yangon University</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            2016-2017
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            <!-- QUALIFICATION 3 -->
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Professional Diploma In Leadership</h3>
+                                        <span class="qualification__subtitle">Myanmar Management Institute</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            2018-2019
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- QUALIFICATION CONTENT 2 -->
+                            <div class="qualification__content" data-content id="language">
+                                <!-- QUALIFICATION 1 -->
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Myanmar</h3>
+                                        <span class="qualification__subtitle">Native Language</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            1999-2021
+                                        </div>                                        
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                </div>
+                            <!-- QUALIFICATION 2 -->
+                                <div class="qualification__data">
+                                    <div></div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
+                                        <span class="qualification__line"></span>
+                                    </div>
+                                    <div>
+                                        <h3 class="qualification__title">English</h3>
+                                        <span class="qualification__subtitle">Intermediate Level</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            1999-2021
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- QUALIFICATION 3 -->
+                                <div class="qualification__data">
+                                    <div>
+                                        <h3 class="qualification__title">Japan</h3>
+                                        <span class="qualification__subtitle">N3 Level(Learning)</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calender"></i>
+                                            2019-2021
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="qualification__rounder"></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
-            </section> -->
+            </section>
             <!-- SERVICE -->
             <section class="services section" id="services">
                 <h2 class="section__title">Portfolio</h2>
@@ -467,6 +557,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/busticket.jpg" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -495,7 +586,7 @@
                                         <p>Language & Environment : <b>C#(Window), SQL Server  Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -512,6 +603,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/odoo.jpg" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -538,7 +630,7 @@
                                         <p>Language & Environment : <b>Python, Javascript, Postgres SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <b><a href="https://www.odoo.com/" target="_blank" class="private__link">Public URL</a></b>
+                                <b><a href="https://www.odoo.com/" target="_blank" class="private__link">Visit Site</a></b>
                             </div>
                         </div>
                     </div>
@@ -554,6 +646,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/carrent.jpg" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -578,7 +671,7 @@
                                         <p>Language & Environment : <b>C#, Javascript, Oracle SQL Server</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -594,6 +687,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/warehouse1.png" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -618,7 +712,7 @@
                                         <p>Language & Environment : <b>Laravel, Angular JS,  My SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -634,6 +728,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/warehouse2.png" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -658,7 +753,7 @@
                                         <p>Language & Environment : <b>PHP for (backend), Android Java for (frontend), My SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -674,6 +769,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/webdistributor.jpg" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -698,7 +794,7 @@
                                         <p>Language & Environment : <b>C# for (backend), HTML for (frontend), Javascript for (frontend), Android Studio, SQL Server Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -714,6 +810,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/attendance.jpg" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -738,7 +835,7 @@
                                         <p>Language & Environment : <b>Sevelt for (both banckend and frontend), My SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -754,6 +851,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/enterainer.png" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -778,7 +876,7 @@
                                         <p>Language & Environment : <b>Laravel framework for (backend), Vue Js for (frontend), My SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <b><a href="https://test.gei-tassha.jp/" target="_blank" class="private__link">Public URL</a></b>
+                                <b><a href="https://test.gei-tassha.jp/" target="_blank" class="private__link">Visit Site</a></b>
                             </div>
                         </div>
                     </div>
@@ -794,6 +892,7 @@
                         </span>
                         <div class="services__modal">
                             <div class="services__modal-content">
+                                <img src="assets/img/enterainer.PNG" alt="" class="portfolio__img">
                                 <h4 class="services__modal-title">Full Stack <br> Developer</h4>
                                 <i class="uil uil-times services__modal-close"></i>
                                 <ul class="services__modal-services grid">
@@ -818,7 +917,7 @@
                                         <p>Language & Environment : <b>PHP for (backend), Flutter-Android for (frontend), My SQL Database</b></p>
                                     </li>
                                 </ul>
-                                <a href="#privatelink">Private URL</a>
+                                <!-- <a href="#privatelink">Private URL</a> -->
                             </div>
                         </div>
                     </div>
@@ -1025,10 +1124,10 @@
                     </div>
                     <ul class="footer__links">
                         <li>
-                            <a href="#services" class="footer__link">Services</a>
+                            <a href="#skills" class="footer__link">Skills</a>
                         </li>
                         <li>
-                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                            <a href="#services" class="footer__link">Portfolio</a>
                         </li>
                         <li>
                             <a href="#contact" class="footer__link">Contactme</a>
